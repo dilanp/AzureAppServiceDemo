@@ -1,0 +1,19 @@
+cd Documents/Development/Azure/
+git clone https://github.com/dilanp/AzureAppServiceDemo.git
+cd AzureAppServiceDemo/
+dotnet --version
+* Install latest .Net Core version
+dotnet new globaljson --sdk-version 3.1.406 --force
+* CSProj file has => <TargetFramework>netcoreapp3.1</TargetFramework>
+dotnet --version
+dotnet new web
+ls
+dotnet run
+
+git status
+git add .
+git status
+git commit -m "Initial commit"
+git push origin master
+
+code .
